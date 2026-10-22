@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+.DS_Store
+report.html
+Authenticated CVE/
+CyberPanel Authenticated Privilege Escalation Chain/
