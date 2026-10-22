@@ -2,5 +2,6 @@
 __pycache__/
 .DS_Store
 report.html
+poc-demo.mov
 Authenticated CVE/
 CyberPanel Authenticated Privilege Escalation Chain/
